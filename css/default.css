@@ -1,0 +1,199 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    font-size: 1em;
+    line-height: 1.85;
+    color: #666666;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+
+.fill-half {
+    min-height: 50%;
+    height: 50%;
+}
+
+@media (max-height: 800px) {
+    .fill-half {
+        min-height: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .fill-half {
+        min-height: auto;
+        height: auto;
+    }
+}
+
+.left {
+    overflow: hidden;
+    padding: 0px;
+}
+
+.image {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 960px) {
+    .image {
+        min-height: 300px;
+    } 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 30px;
+    color: #252525;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #0cb1e0;
+}
+
+a.dark {
+    color: #666666;
+}
+
+a:hover {
+    color: #08a3cf;
+    text-decoration: none;
+}
+
+a.dark:hover {
+    color: #333333;
+}
+
+.list-inline li {
+    float: left;
+    margin-right: 20px;
+}
+
+.social-list a {
+    color: #666666;
+    font-size: 1.1em;
+}
+
+.social-list a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: inherit;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.spacer {
+    clear: both;
+    height: 70px;
+}
+
+.card {
+    background-color: #fafafa;
+    border: 1px solid #ececec;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.card-primary {
+    border-bottom: 3px solid #0cb1e0;
+}
+
+.card h5 {
+    font-size: 1em;
+    line-height: 1.85em;
+    font-weight: 600;
+}
+
+.card a {
+    color: #666666;
+}
+
+.card a:hover {
+    color: #333333;
+}
+
+.card p {
+    font-size: 0.85em;
+    line-height: 1.85em;
+}
+
+.card .badge {
+    background-color: #0cb1e0;
+    color: #ffffff;
+    font-size: 0.75em;
+    padding: 7px;
+    font-weight: 400;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.btn {
+    background-color: #0cb1e0 !important;
+    border-color: #0cb1e0 !important;
+}
+
+.btn-full {
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #08a3cf !important;
+    border-color: #08a3cf !important;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    border-color: #ececec;
+    font-size: 0.95em;
+}
+
+footer {
+    background-color: #333333;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer .logo {
+    max-height: 75px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    display: inline-flex !important;
+}
+
+footer a {
+    color: #ffffff !important;
+    font-size: 0.85em;
+}
+
+footer a:hover {
+    text-decoration: underline !important;
+}
